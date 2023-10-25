@@ -68,6 +68,13 @@ img{
    /* seccion activada */
    .active{
     color: #037bc0;
+    background-color: #005485;
+    width: 12rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    
    }
 /* header y navegacion  */
 .nombre-sitio{
