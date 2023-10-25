@@ -74,7 +74,7 @@ img{
     text-align: center;
     color: white;
     border-radius: 2rem;
-    
+
    }
 /* header y navegacion  */
 .nombre-sitio{
@@ -95,6 +95,15 @@ img{
 }
 .nav-principal a{
     font-size: 20px;
+}
+.nav-principal a:not([class="active"]){
+
+    padding: 2rem;
+    border-radius: 1.3rem;
+}
+.nav-principal a:not([class="active"]):hover{
+    background-color: #e1e1e1;
+
 }
 
 .hero{
